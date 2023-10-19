@@ -1,0 +1,28 @@
+- Attuatore Warmer CoAP: FINITO
+
+ToDO:
+1) Formattare in JSON per tutto. Definire il formato.
+    TemperatureDetection
+    {
+        tyre: "",
+        temperature: "",
+        timestamp: ""
+    }
+2) Registrazione dell'attuatori in MySQL                    FATTO
+3) Cambiare i colori dei led
+4) Led nei sensori MQTT, attivo o disattivo.
+5) Formattare il nome dei topic
+6) Fixare la simulazione delle temperature rilevate         FATTO
+7) Rivedere i comandi da terminale
+8) Timestamp nei sensori                                    FATTO
+
+
+
+1B/1D   ===> BR
+
+58      ===> COAP Tyre-Warmer
+3E      ===> MQTT Tyre-Warmer
+
+F2      ===> COAP Tyre-Track
+71      ===> MQTT Tyre-Track
+
